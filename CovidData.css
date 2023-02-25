@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(222, 227, 222);
+  }
+  .covidData {
+    background-color: rgb(7, 5, 5);
+    width: 55%;
+    margin: auto;
+    color:white;
+    margin-top: 15px;
+    border-radius: 6px;
+    padding: 10px;
+  }
+    
+  /* input stylings */
+    
+  .covidData__form {
+    padding: 10px;
+    margin: 20px;
+  }
+  .covidData__input input {
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    color: rgb(10, 10, 10);
+    font-size: 25px;
+    border-radius:10;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .covidData__input button {
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: rgb(108, 87, 87);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px rgb(71, 67, 67);
+    cursor: pointer;
+  }
+    
+  /* detail stylings */
+    
+  .covidData__country__info {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding-left: 10px;
+    background-color: rgb(46, 45, 45);
+    margin-top: 20px;
+    padding: 2px;
+    text-shadow: 1px 1px 1px rgb(71, 67, 67);
+    box-shadow: 5px 5px 5px rgb(71, 67, 67);
+  }
